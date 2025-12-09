@@ -1,0 +1,14 @@
+name: batt-imp-ml
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - xgboost
+  - pybamm
+  - jupyter
