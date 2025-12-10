@@ -89,9 +89,8 @@ To run a notebook:
 
 ## Planned notebooks
 
-- [WIP] PRS-style fingerprint features and simple ECM fitting
-- [WIP] Defect / anomaly detection from impedance fingerprints
-- [WIP] Uncertainty & robustness checks
+- [WIP] SoH from Impedance (DIB_Data; DOI: 10.17632/mn9fb7xdx6.3)
+- [WIP] Synthetic Impedance with PyBaMM.
 
 ---
 
