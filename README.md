@@ -27,6 +27,7 @@ battery-diagnostics-impedance-ml-examples/
 ├─ requirements.txt
 ├─ .gitignore
 ├─ notebooks/
+│   └── 01_eis_soc_exploration.ipynb
 ├─ data/                    # NOT committed
 └─ src/                     # optional helpers
     └─ utils.py
@@ -79,6 +80,16 @@ To run a notebook:
 
 ## Notebooks overview
 
-[TO DO]
+- [notebooks/01_eis_soc_exploration.ipynb](notebooks/01_eis_soc_exploration.ipynb) **01 – EIS & SOC Exploration**  
+``` :contentReference[oaicite:0]{index=0}
+::contentReference[oaicite:1]{index=1}
+  
+  Uses a public LFP SoC EIS dataset (Mustafa et al., Mendeley) to:
+  1) load and sanity-check impedance spectra across 11 cells and two repeats,  
+  2) visualise Nyquist and Bode plots vs SOC,  
+  3) engineer simple impedance features (global stats + |Z|/phase at selected frequencies), and  
+  4) train and evaluate SOC regression models (ElasticNet vs RandomForest) with nested GroupKFold splits by battery.
+
+
 ---
 
