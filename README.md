@@ -87,6 +87,11 @@ To run a notebook:
   3) engineer simple impedance features (global stats + |Z|/phase at selected frequencies), and  
   4) train and evaluate SOC regression models (ElasticNet vs RandomForest) with nested GroupKFold splits by battery.
 
+## Planned notebooks
+
+- [WIP] PRS-style fingerprint features and simple ECM fitting
+- [WIP] Defect / anomaly detection from impedance fingerprints
+- [WIP] Uncertainty & robustness checks
 
 ---
 
