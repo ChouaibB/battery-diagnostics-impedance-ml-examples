@@ -25,7 +25,6 @@ battery-diagnostics-impedance-ml-examples/
 ├─ README.md
 ├─ environment.yml
 ├─ requirements.txt
-├─ .gitignore
 ├─ notebooks/
 │   └── 01_eis_soc_exploration.ipynb
 ├─ data/                    # NOT committed
@@ -81,8 +80,6 @@ To run a notebook:
 ## Notebooks overview
 
 - [notebooks/01_eis_soc_exploration.ipynb](notebooks/01_eis_soc_exploration.ipynb) **01 – EIS & SOC Exploration**  
-``` :contentReference[oaicite:0]{index=0}
-::contentReference[oaicite:1]{index=1}
   
   Uses a public LFP SoC EIS dataset (Mustafa et al., Mendeley) to:
   1) load and sanity-check impedance spectra across 11 cells and two repeats,  
