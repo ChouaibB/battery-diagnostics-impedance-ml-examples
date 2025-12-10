@@ -12,3 +12,4 @@ dependencies:
   - xgboost
   - pybamm
   - jupyter
+  - tqdm
