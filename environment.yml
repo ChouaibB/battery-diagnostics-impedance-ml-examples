@@ -13,3 +13,6 @@ dependencies:
   - pybamm
   - jupyter
   - tqdm
+  - pip
+  - pip:
+      - xlrd==1.2.0
