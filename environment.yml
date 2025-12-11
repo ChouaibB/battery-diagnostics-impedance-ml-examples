@@ -12,7 +12,7 @@ dependencies:
   - xgboost
   - pybamm
   - jupyter
-  - tqdm
   - pip
   - pip:
-      - xlrd==1.2.0
+      - tqdm
+      - xlrd
