@@ -95,10 +95,17 @@ To run a notebook:
   3) explore SoH label distribution and (SoH, SOC, T) coverage, and  
   4) train and compare SoH regression models (ElasticNet, XGBoost, Gaussian Process) with nested GroupKFold splits by cell, including GP parity and XGBoost feature-importance plots.
 
+- [notebooks/03_Healthy_vs_Aged_Classification_from_EIS.ipynb](notebooks/03_Healthy_vs_Aged_Classification_from_EIS.ipynb) **03 – Healthy vs Aged Classification from EIS**
+
+  Reuses the Rashid et al. aging + EIS dataset to:
+  1) load the engineered impedance feature table from the 02 – SoH from EIS (Rashid et al.) notebook and add a binary health label (`healthy` vs `aged` from SoH ≥ 90%),  
+  2) run nested GroupKFold experiments by cell with three probabilistic classifiers (logistic regression, RBF SVM, Gaussian Process Classifier),  
+  3) evaluate decision-oriented metrics (ROC/PR curves, FPR/FNR at fixed thresholds) from outer-fold predictions, and  
+  4) analyse permutation-based feature importance and visualise 2D decision regions in a shared (`R_hf_ohm`, `Zmag_min`) feature plane.
+
 
 ## Planned notebooks
 
-- [WIP] Healthy vs Aged Classification from EIS (also -> DIB_Data; DOI: 10.17632/mn9fb7xdx6.3)
 - [WIP] Synthetic Impedance with PyBaMM.
 
 ---
