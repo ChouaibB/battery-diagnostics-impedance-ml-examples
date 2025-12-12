@@ -25,9 +25,13 @@ battery-diagnostics-impedance-ml-examples/
 ├─ README.md
 ├─ environment.yml
 ├─ requirements.txt
-├─ notebooks/
-│   └── 01_eis_soc_exploration.ipynb
-├─ data/                    # NOT committed
+├── notebooks/
+│   ├── 01_eis_soc_exploration.ipynb
+│   ├── 02_SoH_from_EIS.ipynb
+│   └── 03_Healthy_vs_Aged_Classification_from_EIS.ipynb
+├── data/                   # NOT committed
+│   ├── DIB_Data/
+│   └── soc_eis_lfp/
 └─ src/                     # optional helpers
     └─ utils.py
 ```
