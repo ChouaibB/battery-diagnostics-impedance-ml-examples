@@ -28,7 +28,8 @@ battery-diagnostics-impedance-ml-examples/
 ├── notebooks/
 │   ├── 01_eis_soc_exploration.ipynb
 │   ├── 02_SoH_from_EIS.ipynb
-│   └── 03_Healthy_vs_Aged_Classification_from_EIS.ipynb
+│   ├── 03_Healthy_vs_Aged_Classification_from_EIS.ipynb
+│   └── pdf/                # Notebooks PDF renders
 ├── data/                   # NOT committed
 │   ├── DIB_Data/
 │   └── soc_eis_lfp/
@@ -83,7 +84,7 @@ To run a notebook:
 
 ## Notebooks overview
 
-- [notebooks/01_eis_soc_exploration.ipynb](notebooks/01_eis_soc_exploration.ipynb) **01 – EIS & SOC Exploration**  
+- **01 – EIS & SOC Exploration** [Notebook](notebooks/01_eis_soc_exploration.ipynb) | [PDF](notebooks/pdf/01_eis_soc_exploration.pdf)
   
   Uses a public LFP SoC EIS dataset (Mustafa et al., Mendeley) to:
   1) load and sanity-check impedance spectra across 11 cells and two repeats,  
@@ -91,7 +92,7 @@ To run a notebook:
   3) engineer simple impedance features (global stats + |Z|/phase at selected frequencies), and  
   4) train and evaluate SOC regression models (ElasticNet vs RandomForest) with nested GroupKFold splits by battery.
 
-- [notebooks/02_SoH_from_EIS.ipynb](notebooks/02_SoH_from_EIS.ipynb) **02 – SoH from EIS (Rashid et al.)**  
+- **02 – SoH from EIS (Rashid et al.)** [Notebook](notebooks/02_SoH_from_EIS.ipynb) | [PDF](notebooks/pdf/02_SoH_from_EIS.pdf)
 
   Uses the Rashid et al. public aging + EIS dataset to:
   1) index and load EIS spectra from Excel files into a tidy long-format table,  
@@ -99,7 +100,7 @@ To run a notebook:
   3) explore SoH label distribution and (SoH, SOC, T) coverage, and  
   4) train and compare SoH regression models (ElasticNet, XGBoost, Gaussian Process) with nested GroupKFold splits by cell, including GP parity and XGBoost feature-importance plots.
 
-- [notebooks/03_Healthy_vs_Aged_Classification_from_EIS.ipynb](notebooks/03_Healthy_vs_Aged_Classification_from_EIS.ipynb) **03 – Healthy vs Aged Classification from EIS**
+- **03 – Healthy vs Aged Classification from EIS** [Notebook](notebooks/03_Healthy_vs_Aged_Classification_from_EIS.ipynb) | [PDF](notebooks/pdf/03_Healthy_vs_Aged_Classification_from_EIS.pdf)
 
   Reuses the Rashid et al. aging + EIS dataset to:
   1) load the engineered impedance feature table from the 02 – SoH from EIS (Rashid et al.) notebook and add a binary health label (`healthy` vs `aged` from SoH ≥ 90%),  
