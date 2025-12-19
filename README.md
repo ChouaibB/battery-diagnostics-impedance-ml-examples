@@ -109,9 +109,5 @@ To run a notebook:
   4) analyse permutation-based feature importance and visualise 2D decision regions in a shared (`R_hf_ohm`, `Zmag_min`) feature plane.
 
 
-## Planned notebooks
-
-- [WIP] Synthetic Impedance with PyBaMM.
-
 ---
 
