@@ -3,18 +3,6 @@
 This repository contains a small set of Jupyter notebooks exploring **battery diagnostics from impedance data**.  
 The focus is on working with impedance / EIS spectra (and ECM-style features) and building simple ML workflows.
 
-My understanding of the underlying impedance measurements and ECM fitting is mainly based on:
-
-- J. Sihvo, D.-I. Stroe, T. Messo, and T. Roinila,  
-  **“A Fast Approach for Battery Impedance Identification Using Pseudo Random Sequence (PRS) Signals,”**  
-  *IEEE Transactions on Power Electronics*, vol. 35, no. 3, pp. 2548–2557, 2020.  
-  DOI: 10.1109/TPEL.2019.2924286  
-
-- J. Sihvo, T. Roinila, T. Messo, and D.-I. Stroe,  
-  **“Novel online fitting algorithm for impedance-based state estimation of Li-ion batteries,”**  
-  in *Proc. IECON 2019 – 45th Annual Conference of the IEEE Industrial Electronics Society*, 2019.  
-  DOI: 10.1109/IECON.2019.8927338
-
 ---
 
 ## Repository structure
