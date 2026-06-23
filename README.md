@@ -33,7 +33,7 @@ battery-diagnostics-impedance-ml-examples/
 
 ## Conda environment
 
-These examples were developed with **conda 25.11.0**.
+These examples were developed with **conda 26.3.2**.
 
 Create and activate the environment:
 
