@@ -10,7 +10,6 @@ dependencies:
   - scikit-learn
   - matplotlib
   - xgboost
-  - pybamm
   - jupyter
   - pip
   - pip:
